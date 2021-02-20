@@ -1,0 +1,3 @@
+#! /bin/bash
+cp tinywm.desktop /usr/share/xsessions/
+gcc -Os -pedantic -Wall -I/usr/X11R6/include tinywm.c -L/usr/X11R6/lib -lX11 -o tinywm

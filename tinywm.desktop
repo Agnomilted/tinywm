@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Tinywm
+Comment=My custom build of tinywm
+Exec=/home/agnom/src/tinywm/start
+Type=Application
