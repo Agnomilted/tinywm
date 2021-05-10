@@ -1,7 +1,6 @@
 #! /bin/bash
 # lxsession -a &
 ~/.fehbg
-gnome-terminal
-gnome-terminal
 # compton -b -f
-exec ./tinywm
+sxhkd -c ~/src/tinywm/sxhkd &
+exec tinywm 

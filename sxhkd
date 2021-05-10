@@ -1,0 +1,11 @@
+
+super + Return
+	gnome-terminal
+super + d
+	dmenu_run
+super + shift + q
+	killall tinywm
+super + shift + c
+	xkill
+super + shift + v
+	setvolume
